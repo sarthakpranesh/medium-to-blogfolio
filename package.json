@@ -1,0 +1,17 @@
+{
+  "name": "medium-to-blogfolio",
+  "version": "1.0.0",
+  "description": "Medium to Blogfolio markdown format",
+  "main": "index.js",
+  "scripts": {
+    "test": "medium-to-blogfolio"
+  },
+  "author": "Sarthak Pranesh",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "prompt-sync": "^4.2.0",
+    "turndown": "^7.0.0"
+  },
+  "bin": "cli.js"
+}
