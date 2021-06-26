@@ -17,7 +17,11 @@ const m2b = () => {
         const response = await raw.json();
 
         // create folder to store your blogs
-        fs.mkdirSync('medium-to-blogfolio');
+        try {
+            fs.mkdirSync('medium-to-blogfolio');
+        } catch (err) {
+            console.log(err.message);
+        }
         
         response.items.forEach((item, index) => {
             rawBlogData[index] = '';

@@ -2,7 +2,7 @@
   "name": "medium-to-blogfolio",
   "version": "1.0.0",
   "description": "Medium to Blogfolio markdown format",
-  "main": "index.js",
+  "main": "cli.js",
   "scripts": {
     "test": "medium-to-blogfolio"
   },
@@ -13,5 +13,7 @@
     "prompt-sync": "^4.2.0",
     "turndown": "^7.0.0"
   },
-  "bin": "cli.js"
+  "bin": {
+    "medium-to-blogfolio": "./cli.js"
+  }
 }
