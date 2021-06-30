@@ -8,7 +8,7 @@ A simple CLI tool mainly for retrieving and converting Medium blogs to markdown 
 
 First install the npm package
 ```bash
-npm install medium-to-blogfolio
+npm i -g medium-to-blogfolio
 ```
 
 Use the `medium-to-blogfolio` command to retrieve and convert your blogs
